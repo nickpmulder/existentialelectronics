@@ -37,6 +37,19 @@ p{
 
 }
 
+a{
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(0, 110, 255);
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: .2rem;
+    display: block;
+
+
+}
+
 .grid-item {
     
     padding: 20px;
