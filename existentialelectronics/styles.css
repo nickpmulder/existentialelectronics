@@ -1,0 +1,63 @@
+body{
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(36, 36, 36);
+}
+
+
+h1{
+    font-family: 'Geostar Fill', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #c1d5d6;
+    text-align: center;
+    padding-top: 0;
+    margin: 0;
+}
+
+h2{
+
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: .5rem;
+    color: rgb(161, 78, 172);
+    text-align: center;
+    padding: 0;
+}
+
+p{
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(0, 110, 255);
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: .2rem;
+
+
+}
+
+.grid-item {
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.box{
+    background-color: rgb(35, 52, 71);
+    width: 20rem;
+    margin: 0 auto;
+    height: 1.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
