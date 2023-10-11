@@ -7,7 +7,6 @@ body{
 h1{
     font-family: 'Geostar Fill', serif;
     font-weight: 400;
-    font-size: 3rem;
     color: #c1d5d6;
     text-align: center;
     padding-top: 0;
@@ -17,7 +16,6 @@ h1{
 h2{
 
     font-weight: 400;
-    font-size: 1.3rem;
     font-family: 'Space Mono', monospace;
     letter-spacing: .5rem;
     color: rgb(161, 78, 172);
@@ -82,12 +80,12 @@ a{
 
 
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) (min-width:799px){
     h1{
         font-size: 1rem;
     }
     h2{
-        font-size: 1rem;
+        font-size: 0.5em;
     }
 
     .grid-container {
@@ -102,12 +100,12 @@ a{
   }
 
 
-  @media only screen and (max-width: 800px) {
+  @media  (max-width: 800px) {
     h1{
     font-size: 2rem;
     }
     h2{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .grid-container {
         grid-template-columns: auto;
