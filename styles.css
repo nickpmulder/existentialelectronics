@@ -1,23 +1,32 @@
+html{
+    margin: 0;
+    width: 100%;
+    height: 100%;}
+
 body{
     font-family: 'Space Mono', monospace;
     background-color: rgb(36, 36, 36);
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
 h1{
     font-family: 'Geostar Fill', serif;
     font-weight: 400;
+    font-size: .7rem;
     color: #c1d5d6;
-    text-align: center;
     padding-top: 0;
-    margin: 0;
 }
 
 h2{
 
     font-weight: 400;
     font-family: 'Space Mono', monospace;
-    letter-spacing: .5rem;
+    font-size: .5rem;
+    letter-spacing: .3rem;
     color: rgb(161, 78, 172);
     text-align: center;
     padding: 0;
@@ -25,19 +34,18 @@ h2{
 
 p{
     font-family: 'Space Mono', monospace;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 400;
     color: rgb(0, 110, 255);
     text-align: center;
     line-height: 100%;
-    letter-spacing: .2rem;
 
 
 }
 
 a{
     font-family: 'Space Mono', monospace;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 400;
     color: rgb(0, 110, 255);
     text-align: center;
@@ -48,77 +56,73 @@ a{
 
 }
 
-.grid-item {
-    
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-.box{
-    background-color: rgb(35, 52, 71);
-    width: 20rem;
-    margin: 0 auto;
-    height: 1.5rem;
-}
+
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     padding: 10px;
+    text-align: center;
   }
+
   .grid-item {
     
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
     text-align: center;
   }
 
   .grid-image {
-    width: 25vw;
+    width: 60vw;
 
   }
 
 
 
-  @media (max-width: 600px) {
+
+
+  @media  only screen and (min-width: 600px) {
     h1{
-        font-size: 1.3rem!important;
+        font-size: 1.3rem ;
     }
     h2{
-        font-size: 0.75em!important;
+        font-size: 0.75em ;
     }
 
-    .grid-container {
-        grid-template-columns: auto;
 
-    }
-    .grid-image{   
-         width: 60vw;
-}
+    p{
+        font-size: .5rem;
+    }   
 
       
   }
 
 
-  @media  (max-width: 800px) {
+  @media   only screen and (min-width: 800px) {
     h1{
     font-size: 2rem ;
     }
     h2{
         font-size: 1rem ;
     }
+
     .grid-container {
-        grid-template-columns: auto;
+        grid-template-columns: auto auto auto;
 
     }
     .grid-image{   
-         width: 60vw;
+         width: 25vw;
 }
 
+    p{
+        font-size: 1rem;
+    }
+    a{
+        font-size: 1rem;
+    }
   }
 
 
-  @media  (min-width: 950px) {
+  @media  only screen and (min-width: 950px) {
     h1{
     font-size: 3rem;
     }
