@@ -36,7 +36,7 @@ p{
     font-family: 'Space Mono', monospace;
     font-size: .5rem;
     font-weight: 400;
-    color: rgb(0, 110, 255);
+    color: #42BD91;
     text-align: center;
     line-height: 100%;
 
@@ -47,7 +47,7 @@ a{
     font-family: 'Space Mono', monospace;
     font-size: .5rem;
     font-weight: 400;
-    color: rgb(0, 110, 255);
+    color: #42BD91;
     text-align: center;
     line-height: 100%;
     letter-spacing: .2rem;
