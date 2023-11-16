@@ -38,7 +38,7 @@ p{
     font-weight: 400;
     color: #42BD91;
     text-align: center;
-    line-height: 100%;
+    line-height: 120%;
 
 
 }
@@ -49,7 +49,7 @@ a{
     font-weight: 400;
     color: #42BD91;
     text-align: center;
-    line-height: 100%;
+    line-height: 120%;
     letter-spacing: .2rem;
     display: block;
     text-decoration: none;
@@ -143,10 +143,10 @@ a{
     }
 
     p{
-        font-size: 1rem;
+        font-size: .8rem;
     }
     a{
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     .logo{
