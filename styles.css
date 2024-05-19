@@ -68,6 +68,14 @@ a{
 
 }
 
+iframe{ 
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    width: 150px;
+    
+}
+
 .logo{
 
     width: 3rem;
@@ -156,6 +164,9 @@ padding:20px;  }
     .logo{
         width: 4rem;
     }
+
+
+ 
       
   }
 
@@ -200,6 +211,8 @@ padding:20px;  }
     .logo{
         width: 5rem;
     }
+
+
   }
 
 
@@ -218,5 +231,7 @@ padding:20px;  }
     .logo{
         width: 6rem;
     }
+
+
 
   }
